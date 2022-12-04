@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>
+        <div id = "clock">00:00</div>
+    </h1>
+    <h1>
+        <div id="date">0000-00-00</div>
+    </h1>
+    <h2>
+        <div id="login-part">
+            <span>What is your name?</span>
+            <form id="login-form">
+                <input type="text" id="input-name" autofocus placeholder="Enter Your Name"/>
+            </form>
+        </div>
+        <h1 id="loginMessage" class="hidden"></h1>
+        <form id="todo-form">
+            <input type="text" id="todo-input" placeholder="What Do You Want To Achieve Today?" required />
+          </form>
+          <ul id="todo-list"></ul>
+        <div id="weather">
+            <span></span>
+            <span></span>
+        </div>
+    </h2>
+    
+
+<script src="JS/background.js"></script>
+<script src="JS/clock.js"></script>
+<script src="JS/geolocation.js"></script>
+<script src="JS/login.js"></script>
+<script src="JS/todo.js"></script>
+<script src="JS/weather.js"></script>
+</body>
+</html>

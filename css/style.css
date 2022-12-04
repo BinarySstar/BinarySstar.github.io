@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+::placeholder{
+    color : whitesmoke;
+    font-size : 15px;
+}
+
+#clock {
+    font-size: 100px;
+    color : white;
+    letter-spacing: 10%;
+    text-shadow: 0.5px 0.5px black;
+}
+
+#date {
+    font-size : 35px;
+    color : white;
+    letter-spacing : 5%;
+    text-shadow: 0.5px 0.5px black;
+}
+
+#loginMessage {
+    font-size : 80px;
+    color : white;
+    text-shadow: 0.5px 0.5px black;
+}
+
+#login-part {
+    font-size : 70px;
+    color : white;
+    text-shadow: 0.5px 0.5px black;
+}
+
+#input-name {
+    color : white;
+    border-color : white;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style : none;
+    border-right-style: none;
+    background-color : transparent;
+    width : 400px;
+    height : 30px;
+}
+
+#todo-input {
+    color : white;
+    border-color : white;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style : none;
+    border-right-style: none;
+    background-color : transparent;
+    width : 400px;
+    height : 30px;
+}
+
+#todo-list {
+    color : white;
+    list-style : none;
+    border : 3px solid white;
+    padding : 20px 40px;
+    margin : 5px;
+}
+
+#weather {
+    color : white;
+    position: fixed;
+    left : 20px;
+    top : 20px;
+    text-shadow: 0.5px 0.5px black;
+}
+
+.hidden{
+    display: none;
+}
+
